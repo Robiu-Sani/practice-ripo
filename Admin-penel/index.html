@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS Builders</title>
+        <link rel="icon" href="images/11.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/911178bb44.js" crossorigin="anonymous"></script>
+        <!-- --------------------------- css work is here --------------------------- -->
+        <style>
+            *{
+                /* font-family: 'Dancing Script', cursive; */
+                font-family: 'Teko', sans-serif;
+                font-size: 20px;
+            }
+        </style>
+        <!-- --------------------------- tailowind css cdn link --------------------------- -->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+    
+        <!-- --------------------------- talowind custom color maker --------------------------- -->
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    clifford: '#da373d',
+                    Primary: '#ea580c',
+                    blackOpacity : '#000000d6',
+                  },
+                }
+              }
+            }
+          </script>
+    
+    </head>
+<body class="relative">
+    <header class="w-full bg-emerald-600 p-7 flex items-center ">
+
+    </header>
+    <main class="grid grid-cols-1 md:grid-cols-6 min-h-full ">
+        <div class="bg-emerald-800 max-h-full overflow-scroll pb-10">
+            <ul>
+                <li class="p-4" ><a class=" text-white" href="#">Add Data</a></li>
+                <li class="p-4" ><a class=" text-white" href="#">Check Data</a></li>
+                <li class="p-4" ><a class=" text-white" href="#">Check Data</a></li>
+                <li class="p-4" ><a class=" text-white" href="#">Check Data</a></li>
+                <li class="p-4" ><a class=" text-white" href="#">Check Data</a></li>
+                <li class="p-4" ><a class=" text-white" href="#">Check Data</a></li>
+                <li class="p-4" ><a class=" text-white" href="#">Check Data</a></li>
+                <li class="p-4" ><a class=" text-white" href="#">Check Data</a></li>
+                <li class="p-4" ><a class=" text-white" href="#">Check Data</a></li>
+            </ul>
+        </div>
+        <div class="bg-emerald-400 col-span-1 md:col-span-5 h-20"></div>
+    </main>
+    <footer class="bg-emerald-900 p-5 fixed w-full bottom-0 "></footer>
+</body>
+</html>
