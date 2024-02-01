@@ -1,9 +1,10 @@
+import EditTopicPage from '@/app/Components/EditTopicPage'
 import React from 'react'
 
-export default function page() {
+export default function EditTodo() {
   return (
     <div>
-      this is not id
+      <EditTopicPage />
     </div>
   )
 }
