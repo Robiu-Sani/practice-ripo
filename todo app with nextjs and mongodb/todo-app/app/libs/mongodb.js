@@ -9,4 +9,4 @@ const connectMongoDB = () => {
     }
 }
 
-export default connectMongoDB
+export default connectMongoDB;
